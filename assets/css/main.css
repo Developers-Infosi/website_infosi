@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+:root {
+    --bg-color-white: #FFFFFF; /*Main Background*/
+    --color-black-carbon:#111111; /*Navbar and rodapé*/
+    --color-hot-marfim: #F5F2ED; /*Cards and Sections*/
+    --color-light-bege: #EDE7DF; /*Secondary Background*/
+
+    --color-orange: #E8A04B; /*orange*/
+    --color-golden: #F0C58D;/*Highlight*/
+    --color-brown: #8B542D;/*Highlight*/
+
+
+    --color-hot-gray: #615950; /*text*/
+    --color-medium-gray: #B9B4AF; /* text */
+    --color-hot-carbon: #25211D; /* Text */
+
+    --font-family:"Inter", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color-white);
+}
+
+nav {
+    background-color: var(--color-black-carbon);
+}
+
+div ul li  {
+    color: var(--color-medium-gray);
+}
+#information_hero h1 {
+    font-size: 3.5rem;
+}
+#information_hero h1, p {
+    font-family: var(--font-family);
+    color :var(--bg-color-white);
+}
+
+#information_hero p {
+    color: var(--color-medium-gray);
+    font-weight: 300;
+    font-size:20px;
+}
+
+#logo_above {
+    margin-block: 1rem;
+    padding:.1rem .1rem;
+    border-radius: 1rem;
+    color: var(--bg-color-white);
+    font-family: var(--font-family);
+    background: linear-gradient(rgba(185, 180, 175, 0.2), rgba(185, 180, 175, 0.2));
+}
+
+
+#logo_above img {
+    width: 30px;
+}
