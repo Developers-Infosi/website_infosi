@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
+    
 
 </head>
 <body>
 
 <header>
-    <nav class="navbar navbar-expand-lg " >
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,15 +30,113 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cloud
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Alojamento
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Segurança e Certificação
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
                     </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Conformidade TIC
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conectividade</a>
+                </li>
+
+                <ul class="navbar-nav ms-auto">
+                     <li class="nav-item">
+                    <a class="nav-link" href="#">Planos</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ofertas</a>
+                </li>
+
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ajuda
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Iniciar Sessão
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cart"></i></a>
+                </li>
+                </ul>
+                
+                    
                 </ul>
 
             </div>
@@ -45,40 +144,224 @@
     </nav>
 </header>
 
-<section>
-    <div class="container">
-        <div id="searchSection" class="">
+<section id="section_search" class="container-fluid">
+<div class="row my-3 mx-5">
 
-        </div>
-
-        <div id="informationSection">
-
-        </div>
-
+    <div id="area_input" class="col-lg-10 col-md-6 col-sm-12 d-flex justify-content-center align-items-center shadow-sm">
+          <i class="bi bi-search"></i>
+        <input type="text" class="form-control" placeholder="O que procuras ? Ex.: servidor cloud, alojamento, certificado digital, homologação">
+        <button class="btn">Pesquisar serviços</button>
     </div>
 
+     <div id="area_information" class="col-lg-2 col-md-6 col-sm-12 ml-5">
+        <span class="icon_section">
+            <i class="bi bi-bar-chart-line text-success"></i>
+        </span>
+
+       <div>
+         <span>
+            Todos os serviços operacionais
+        </span>
+        <span>
+            Consulte o estado da plataforma
+        </span>
+       </div>
+    </div>
+
+</div>
 </section>
 
 <section class="container-fluid">
-    <div class="my-5 d-flex justify-content-center text-center"
+    <div class="mx-5"
          style="background: linear-gradient(rgba(0, 0 , 0, 0.5), rgba(0, 0, 0, 0.5)),
-         url('/assets/images/backnew.jpg');width: 100%; height: 600px;
+         url('/assets/images/backnew.jpg'); height: 600px;
          border-radius:1rem;background-size: cover; background-position: center;">
 
-        <div id="information_hero" class="">
-            <div id="logo_above">
+         <div class="my-4 d-flex justify-content-center text-center">
+              <div id="information_hero">
+            <span id="logo_above" class="">
                 <img src="/assets/favicon/BolaInfosi-removebg-preview.png" />
                     INFOSI Cloud Nacional
-            </div>
-            <h1>A infra-estrutura do Estado ao <br/> serviço da sua instituição.</h1>
+            </span>
+            <div class="mt-3">
+                <h1>A infra-estrutura do Estado ao <br/> serviço da sua instituição.</h1>
             <p>Servidores Cloud, alojamento no Centro Nacional de Dados e certificação digital <br/> com os dados em território nacional.</p>
+            </div>
+        </div>
+         </div>
+
+        <div class="container">
+
+            <div id="pos_container">
+
+            <div id="form_area" >
+            <div id="line_form_area" class="row d-flex align-items-center justify-content-center">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <label for="service">Serviço</label>
+                    <select>
+                        <option>Servidor Cloud</option>
+                    </select>
+                </div>
+
+                 <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <label for="service">Recursos</label>
+                    <select>
+                        <option>4 vCPU . 8 GB RAM</option>
+                    </select>
+                </div>
+
+                 <div class="col-lg-3 col-md-6 col-sm-12 item">
+                    <label for="service">Sistema</label>
+                    <select>
+                        <option>Ubuntu 24.04 LTS</option>
+                    </select>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 item except">
+                    <button class="btn btn-dark ">Começar agora <i class="bi bi-arrow-right"></i> </button>
+                </div>
+
+            </div>
         </div>
 
+            </div>
+        
+        </div>
 
+    
+    </div>
+</section>
+
+<section id="institutional" class="container-fluid">
+    <div class="row shadow py-2 mx-5 mt-2 row_institutional_section">
+
+        <div  class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-center gap-2">
+            <div class="icon_session">
+                <i class="bi bi-buildings"></i>
+            </div>
+
+            <div class="information_session">
+                <span>Tutela do MINTTICS</span>
+                <span>Instituto Público do Estado</span>
+            </div>
+        </div>
+
+         <div  class="col-lg-3 col-md-6 col-sm-12 d-flex align-items-center gap-2">
+            <div class="icon_session">
+                <i class="bi bi-database"></i>
+            </div>
+
+            <div class="information_session">
+                <span>Data Center do Governo</span>
+                <span>Centro Nacional de Dados</span>
+            </div>
+        </div>
+
+         <div  class="col-lg-2 col-md-6 col-sm-12 d-flex align-items-center gap-2">
+            <div class="icon_session">
+                <i class="bi bi-alarm"></i>
+            </div>
+
+            <div class="information_session">
+                <span>Operação 24 X 7</span>
+                <span>Monitorização Permanente</span>
+            </div>
+        </div>
+
+        <div  class="col-lg-2 col-md-6 col-sm-12 d-flex align-items-center gap-2">
+            <div class="icon_session">
+               <i class="bi bi-shield-check"></i>
+            </div>
+
+            <div class="information_session">
+                <span>Dados em Angola</span>
+                <span>Soberania Garantida</span>
+            </div>
+        </div>
+
+         <div  class="col-lg-2 col-md-6 col-sm-12 d-flex align-items-center gap-2">
+            <div class="icon_session">
+               <i class="bi bi-gear-wide-connected"></i>
+            </div>
+
+            <div class="information_session">
+                <span>Presença Nacional</span>
+                <span>Em todas as províncias</span>
+            </div>
+        </div>
 
 
     </div>
 </section>
+
+
+<section class="container">
+    <div class="d-flex align-items-center justify-content-center my-5">
+
+        <div id="btns">
+            <a href="#" class="">Cloud e Alojamento</a>
+
+             <a href="#" class="">Recomendado</a>
+
+              <a href="#" class="">Segurança e Certificação</a>
+        </div>
+
+    </div>
+
+
+    <div class="row" id="servers">
+
+        <div class="col-lg-6 col-md-12 col-sm-12 item_server">
+
+            <div class="py-5 my-4 orange_area">
+
+            </div>
+
+            <div class="p-5">
+                <h3>Servidores Cloud</h3>
+                <p>
+                    Máquinas virtuais com recursos, acesso root e escala imediata , alojada no Centro Nacional de Dados.
+                </p>
+
+                <a href="#">
+                    Ver planos cloud
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 item_server">
+
+             <div class="py-5 my-4 orange_area">
+
+            </div>
+
+             <div class="py-5" id="text_right_section">
+                <span>DISPONÍVEL 24X7</span>
+                <h3 class="mt-2">Alojamento Data Center</h3>
+                <p>
+                    Hosting para qualquer tipo de aplicação em plataformas dedicadas, <br/>
+                    partilhadas ou mistas, adaptado ao seu modelo de negócio.
+                </p>
+
+                <a href="#">
+                    Pedir proposta
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
 
 <script src="/assets/js/bootstrap.bundle.min.js">
 
