@@ -15,6 +15,8 @@
     <meta content="Instituto Nacional de Fomento da Sociedade da Informação" property="twitter:title">
     <meta content="Instituto Nacional de Fomento da Sociedade da Informação" property="twitter:description">
 
+    <link rel="icon" href="/site/assets/favicon/BolaInfosi-removebg-preview.png" type="image/x-icon" />
+
     <link rel="stylesheet" href="/site/assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="/site/assets/css/main.css" />
