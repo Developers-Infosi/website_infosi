@@ -852,6 +852,10 @@ footer .div_inner ol li{
 
 /* Tablet pequeno e celular (< 768px) */
 @media (max-width: 767.98px) {
+
+    #hero_img img {
+        max-width: 100%;
+    }
     .hero-banner {
         min-height: 0;
         padding: 1rem 0 1.5rem;
