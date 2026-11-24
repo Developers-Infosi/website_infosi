@@ -99,19 +99,19 @@
     </div>
 
     <div class="icons">
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-       <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.facebook.com/infosi.nacional" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/infosi_angola/" target="_blank"><i class="bi bi-instagram"></i></a>
+       <a href="https://www.linkedin.com/company/infosinacional/" target="_blank"><i class="bi bi-linkedin"></i></a>
     </div>
     </div>
 
 
    </div>
 
-   <div class="row">
-    <div class="d-flex justify-content-between align-items-center last_part_footer">
-       <div> <span>&copy;2026, INFOSI, Instituto Nacional de Fomento da Socidade da Informação, Rua 17 de Setembro, 59, Cidade Alta, Luanda, geral@infosi.gov.ao</span></div>
-       <div> <span class="pen_span">Termos de serviço</span> <span>Política de privacidade</span></div>
+   <div class="">
+    <div class="row d-flex justify-content-between align-items-center last_part_footer">
+       <div class="col-lg-8 col-md-12 col-sm-12 mb-3"> <span>&copy;2026, INFOSI, Instituto Nacional de Fomento da Socidade da Informação, Rua 17 de Setembro, 59, Cidade Alta, Luanda, geral@infosi.gov.ao</span></div>
+       <div class="col-lg-4 col-md-12 col-sm-12 mb-3"> <span class="pen_span">Termos de serviço</span> <span>Política de privacidade</span></div>
     </div>
 
    </div>
