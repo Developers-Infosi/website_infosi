@@ -627,7 +627,7 @@ footer .div_inner ol li{
     content: "";
     position:absolute;
     inset:0;
-    background: rgba(0,0,0,0.3);
+      background: linear-gradient(90deg, rgba(194, 87, 12, 0.3), rgba(0, 0, 0, 0.3));
     border-radius: .2rem;}
 
 #why_work_with_us h2{
@@ -641,16 +641,213 @@ footer .div_inner ol li{
     color: var(--color-hot-gray)
 }
 
-
-#why_us_item div{
+/* ===== Card ===== */
+#why_us_item .why-card {
     background-color: var(--color-hot-marfim);
-    border-radius:.2rem;
+    border-radius: .5rem;
+    padding: 1.5rem 1rem;
+    height: 100%;
 }
 
-#why_us_item div p{
+#why_us_item .why-card p {
     font-family: var(--font-family);
     color: var(--color-black-carbon);
     font-weight: 600;
+    font-size: 20px;
+}
+
+/* ===== Texto geral ===== */
+#why_us_item p {
+    color: var(--color-hot-gray);
+    font-size: 15px;
+}
+
+#why_us_item p span {
+    font-weight: 600;
+}
+
+#why_us_item i {
+    color: rgb(25, 135, 84);
+    font-size: 20px;
+}
+
+#why_us_item small {
+    color: var(--color-hot-gray);
+    font-weight: 400;
+}
+
+/* ===== Card 1: parte branca encostada ao fundo ===== */
+#why_us_item .why-card:has(#homolog) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+#homolog {
+    background-color: var(--bg-color-white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+#homolog .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#homolog .header span {
+    color: var(--color-orange-fired);
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#homolog .header i {
+    color: var(--bg-color-white);
+    background-color: var(--color-orange);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#homolog small {
+    display: block;
+}
+
+#homolog small.bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: var(--color-pink-bege);
+    margin-bottom: .4rem;
+}
+
+#homolog small.bar:nth-child(3) {
+    width: 80%;
+}
+
+#hero_down {
+    position: relative;
+    height: 700px;
+    background-image: url("/site/assets/images/IBMDALLASDC_10.avif");
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+
+}
+
+#hero_down::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(194, 87, 12, 0.9), rgba(0, 0, 0, 0.9));
+    border-radius: 1rem;
+    z-index: 0;
+}
+
+/* tudo o que está dentro do hero fica acima do overlay */
+#hero_down > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* ===== Card 3: contrato e carimbo ===== */
+#why_us_item .contract {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: var(--bg-color-white);
+}
+
+#why_us_item .contract span:nth-child(1) {
+    color: var(--color-black-carbon);
+    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+
+#why_us_item .contract span:nth-child(2) {
+    font-family: var(--font-family);
+    color: rgb(25, 135, 84);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#why_us_item .carimbo {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: var(--bg-color-white);
+}
+
+#why_us_item .carimbo span:nth-child(1) {
+    color: var(--color-hot-gray);
+    font-family: var(--font-family);
+    font-size: 14px;
+}
+
+#why_us_item .carimbo span:nth-child(2) {
+    color: var(--color-black-carbon);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+#lock_section {
+    font-family: var(--font-family);
+    color: var(--color-black-carbon);
+    font-size: 28px;
+    font-weight: 600;
+    background: var(--bg-color-white);
+    display: block;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top:3.5rem;
+}
+
+
+
+
+#lock_section i{
+
+      color: var(--bg-color-white);
+    background-color: var(--color-orange);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#connectivity {
+    display: flex;
+    justify-content: center;
 }
 
 /* Tablet pequeno e celular (< 768px) */

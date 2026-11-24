@@ -142,8 +142,8 @@
     <div class="d-flex align-items-center justify-content-center my-5">
         <div id="btns">
             <a href="#">Cloud e Alojamento</a>
-            <a href="#">Recomendado</a>
-            <a href="#">Segurança e Certificação</a>
+            <a href="#">Registo de Empresa</a>
+            <a href="#">Homologação de Software</a>
         </div>
     </div>
 
@@ -237,6 +237,8 @@
     </div>
 </section>
 
+
+
 <section class="container">
     <div class="text-center" id="why_work_with_us">
         <h2>Porquê trabalhar com o INFOSI ?</h2>
@@ -244,37 +246,92 @@
     </div>
 
 
-    <div class="row g-4  my-5" id="why_us_item">
+    <div class="row g-4 my-5" id="why_us_item">
 
-        <div class="col-lg-4 col-md-6 col-sm-12 p-5">
+    {{-- 1. Homologação --}}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="why-card">
             <p>Homologação de Software para sistemas usados no estado e no sector privado</p>
-        </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12 p-5 ">
-            <p>Segurança para dormir descansado: assinatura e certificação digital</p>
-        </div>
+            <div id="homolog">
+                <div class="header">
+                    <span>Certificação de <br/> Homologação</span>
+                    <i class="bi bi-check2"></i>
+                </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12 p-5">
-            <i class="bi bi-alarm"></i>
-            <p>Carimbo do Tempo e Chaves Públicas que dão validade legal aos seus documentos e transacções</p>
-        </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 p-5">
-            <i class="bi bi-buildings"></i>
-            <p>Registo de Empresas TIC com certificado de aptidão tecnológica para operar no sector</p>
-
-            <small>Pedido online através do Digital.ao</small>
-        </div>
-
-
-         <div class="col-lg-4 col-md-6 col-sm-12 p-5">
-            <i class="bi bi-buildings"></i>
-            <p>Conectividade em todo o país, da Rede Privativa do Estado ao Kit Conecta Angola via ANGOSAT-2</p>
-
-            <small>E a regulação do mercado de domínios.ao , com a lista de revendedores autorizados</small>
+                <small class="bar"></small>
+                <small class="bar"></small>
+                <small>Decreto Presidencial nº 135/21</small>
+            </div>
         </div>
     </div>
 
+    {{-- 2. Segurança --}}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="why-card">
+            <p>Segurança para dormir descansado: assinatura e certificação digital</p>
+
+            <span id="lock_section" class="bg-white p-2">
+                <i class="bi bi-lock p-2"></i> https://
+            </span>
+        </div>
+    </div>
+
+    {{-- 3. Carimbo do tempo --}}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="why-card">
+            <i class="bi bi-alarm"></i>
+            <p>Carimbo do Tempo e Chaves Públicas que dão validade legal aos seus documentos e transacções</p>
+
+            <span class="contract">
+                <span>contrato_2026.pdf</span>
+                <span>Assinado</span>
+            </span>
+
+            <span class="carimbo">
+                <span>Carimbo do tempo</span>
+                <span>07/10/2026 11:02:45</span>
+            </span>
+        </div>
+    </div>
+
+    {{-- 4. Registo de empresas --}}
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="why-card">
+            <i class="bi bi-buildings"></i>
+            <p>Registo de Empresas TIC com certificado de aptidão tecnológica para operar no sector</p>
+
+            <small>Pedido online através do Digital.AO.</small>
+        </div>
+    </div>
+
+    {{-- 5. Conectividade --}}
+    <div class="col-lg-8 col-md-6 col-sm-12">
+        <div class="why-card d-flex justify-content-center ">
+           <div>
+             <div>
+                <i class="bi bi-broadcast-pin"></i>
+                <p>Conectividade em todo o país, da Rede Privativa do Estado ao Kit Conecta Angola via ANGOSAT-2</p>
+            </div>
+
+            <small>E a regulação do mercado de domínios.ao, com a lista de revendedores autorizados.</small>
+
+
+           </div>
+
+
+           <div>
+             <img src="/site/assets/images/satelite.png" class="img-fluid" />
+           </div>
+        </div>
+    </div>
+
+    {{-- Aviso --}}
+    <p class="last_paragraph col-12">
+        <span>Aviso:</span> imagens de painéis e equipamentos meramente ilustrativas. Os recursos e preços dos planos são definidos na proposta comercial.
+    </p>
+
+</div>
 
 </section>
 
