@@ -516,6 +516,16 @@ div ul li  {
 }
 
 
+
+#world_technology .boxes div:nth-child(2):hover{
+  background-color: var(--color-pink-bege);
+}
+
+#world_technology .boxes div:nth-child(3):hover{
+  background-color: var(--color-pink-bege);
+}
+
+
 #world_technology .boxes div:nth-child(1) p {
     color: var(--color-hot-gray);
 }
@@ -1018,9 +1028,18 @@ footer .div_inner ol li{
     color: var(--color-hot-marfim);
 }
 
-#inside_container .box_item i {
+#inside_container .box_chart {
+    display: block;
+    width: 100%;
+    max-width: 160px;
+    height: 36px;
+    margin: .75rem auto 0;
     color: var(--color-orange-fired);
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+#inside_container .box_item span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* Telemóvel */

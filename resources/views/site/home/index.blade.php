@@ -269,7 +269,12 @@
             <div class="box_item h-100">
                 <span>Disponibilidade</span>
                 <span>Operacional</span>
-                <i class="bi bi-graph-up"></i>
+               <svg class="box_chart" viewBox="0 0 160 36" aria-hidden="true">
+                    <polyline points="0,31 20,28 40,30 60,18 78,22 100,11 118,14 142,7 160,9"
+                              fill="none" stroke="currentColor" stroke-width="3"
+                              stroke-linecap="round" stroke-linejoin="round"
+                              transform="translate(2 0) scale(0.975 1)" />
+                </svg>
             </div>
         </div>
 
@@ -277,7 +282,20 @@
             <div class="box_item h-100">
                 <span>Cópias de Segurança</span>
                 <span>Diárias</span>
-                <i class="bi bi-bar-chart-fill"></i>
+                <svg class="box_chart" viewBox="0 0 157 36" aria-hidden="true">
+                    <g fill="currentColor">
+                        <rect x="0"   y="22" width="12" height="14" rx="1" />
+                        <rect x="16"  y="17" width="12" height="19" rx="1" />
+                        <rect x="32"  y="20" width="12" height="16" rx="1" />
+                        <rect x="48"  y="11" width="12" height="25" rx="1" />
+                        <rect x="64"  y="14" width="12" height="22" rx="1" />
+                        <rect x="80"  y="9"  width="12" height="27" rx="1" />
+                        <rect x="96"  y="6"  width="12" height="30" rx="1" />
+                        <rect x="112" y="10" width="12" height="26" rx="1" />
+                        <rect x="128" y="4"  width="12" height="32" rx="1" />
+                        <rect x="144" y="1"  width="12" height="35" rx="1" />
+                    </g>
+                </svg>
             </div>
         </div>
 
