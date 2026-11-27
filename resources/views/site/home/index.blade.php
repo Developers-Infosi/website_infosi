@@ -8,7 +8,7 @@
 
         <div id="area_input" class="col-12 col-lg-9 col-xl-10 d-flex justify-content-center align-items-center shadow-sm">
             <i class="bi bi-search"></i>
-            <input type="text" class="form-control" placeholder="O que procuras ? Ex.: servidor cloud, alojamento, certificado digital, homologação">
+            <input type="text" id="search" class="form-control" placeholder="O que procuras ? Ex.: servidor cloud, alojamento, certificado digital, homologação">
             <button class="btn">Pesquisar serviços</button>
         </div>
 
@@ -237,6 +237,65 @@
     </div>
 </section>
 
+<section class="container-fluid my-5">
+      <div class="text-center my-5">
+        <h2>Conte com o INFOSI  todos os dias, a toda a hora</h2>
+
+    </div>
+    <div id="image_back">
+
+
+        <div class="row">
+
+            <div class="col-lg-5 col-md-6 col-sm-12  ">
+
+                <div class="over_information">
+            <h4>Os seus sistemas a correr no Centro Nacional de Dados,
+                sob a lei angolana e acompanhados por técnicos angolanos.
+            </h4>
+
+
+            <ul>
+                <li> <i class="bi bi-cloud"></i> Servidores Cloud</li>
+                <li> <i class="bi bi-hdd-stack"></i> Alojamento dedicado, partilhado ou misto</li>
+                <li> <i class="bi bi-award"></i> Certificados digitais e Carimbo do Tempo</li>
+                <li> <i class="bi bi-router"></i> Rede Privativa do Estado</li>
+            </ul>
+
+             <div id="inside_container">
+    <div class="row g-2">
+
+        <div class="col-12 col-lg-6">
+            <div class="box_item h-100">
+                <span>Disponibilidade</span>
+                <span>Operacional</span>
+                <i class="bi bi-graph-up"></i>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <div class="box_item h-100">
+                <span>Cópias de Segurança</span>
+                <span>Diárias</span>
+                <i class="bi bi-bar-chart-fill"></i>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+        </div>
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</section>
 
 
 <section class="container">

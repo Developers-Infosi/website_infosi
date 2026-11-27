@@ -118,6 +118,21 @@
 
 </footer>
 
+
+<script>
+    const input = document.getElementById('search');
+    const mobile = window.matchMedia('(max-width: 768px)');
+
+    function atualizarPlaceholder() {
+        input.placeholder = mobile.matches
+            ? 'O que procuras ? Ex.: servidor cloud...'
+            : 'O que procuras ? Ex.: servidor cloud, alojamento, certificado digital, homologação';
+    }
+
+    atualizarPlaceholder();
+    mobile.addEventListener('change', atualizarPlaceholder);
+</script>
+
 <script src="/site/assets/js/bootstrap.bundle.min.js"></script>
 
 @yield('js')
