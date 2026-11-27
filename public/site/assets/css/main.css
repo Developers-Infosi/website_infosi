@@ -911,6 +911,7 @@ footer .div_inner ol li{
 
     #area_input input {
         flex: 1 1 0;
+        font-size:14px;
     }
 
     #area_input button {
@@ -929,4 +930,103 @@ footer .div_inner ol li{
     text-align: center;
     font-weight: 600;
     font-family: var(--font-family);
+}
+
+/* IMAGE Background */
+#image_back {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+    padding: 50px 1.5rem;
+    background: url('/site/assets/images/won_in_datacenter.jpg') center / cover no-repeat;
+    border-radius: 1rem;
+    font-family: var(--font-family);
+}
+
+#image_back::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(194, 87, 12, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: inherit;
+}
+
+#image_back .over_information {
+    position: relative;
+    z-index: 1;
+    padding: clamp(1.25rem, 4vw, 3rem);
+    background-color: var(--bg-color-white);
+    border-radius: .5rem;
+}
+
+#image_back .over_information h4 {
+    color: var(--color-black-carbon);
+    font-weight: 700;
+    font-size: clamp(1.35rem, 1rem + 1.6vw, 2.2rem);
+    line-height: 1.25;
+}
+
+#image_back .over_information ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+#image_back .over_information ul li {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-bottom: 1.25rem;
+    color: var(--color-black-carbon);
+    font-weight: 500;
+}
+
+#image_back .over_information ul li i {
+    flex-shrink: 0;
+    padding: .5rem;
+    color: var(--color-orange-fired);
+    background: rgba(252, 237, 218, 0.9);
+    border-radius: .3rem;
+    font-weight: 700;
+}
+
+#inside_container {
+    padding: 1rem;
+    background: var(--color-black-carbon);
+    border-radius: .3rem;
+}
+
+#inside_container .box_item {
+    padding: 1rem;
+    background: var(--color-hot-carbon);
+    border-radius: .5rem;
+}
+
+#inside_container .box_item span {
+    display: block;
+    font-size: 14px;
+}
+
+#inside_container .box_item span:nth-child(1) {
+    color: var(--color-medium-gray);
+    text-transform: uppercase;
+}
+
+#inside_container .box_item span:nth-child(2) {
+    color: var(--color-hot-marfim);
+}
+
+#inside_container .box_item i {
+    color: var(--color-orange-fired);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+/* Telemóvel */
+@media (max-width: 575.98px) {
+    #image_back {
+        min-height: auto;
+        padding: 1rem .75rem;
+    }
 }
