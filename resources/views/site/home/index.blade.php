@@ -82,7 +82,7 @@
 </section>
 
 <section id="institutional" class="container-fluid">
-    <div class="row shadow py-3 mx-2 mx-md-5 mt-2 gy-3 row_institutional_section">
+    <div class="row shadow py-3 mx-2 mx-md-5  mt-2 gy-3 row_institutional_section">
 
         <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center gap-2">
             <div class="icon_session">
@@ -245,7 +245,7 @@
     <div id="image_back">
 
 
-        <div class="row">
+        <div class="row ">
 
             <div class="col-lg-5 col-md-6 col-sm-12  ">
 
